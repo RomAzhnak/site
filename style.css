@@ -18,18 +18,17 @@ html {
 .text-header {
   font-size: 32px;
   line-height: 37px;
-  /* text-align: center; */
+
   color: #000000;
   margin-bottom: 50px;
 }
 .section__text {
-  /* max-width: 540px; */
-  /* max-height: 67px; */
+
   font-size: 16px;
   line-height: 26px;
   color: #727272;
   text-align: center;
-  /* padding-right: 25px; */
+
 }
 .text-align-left {
   text-align: left;
@@ -46,7 +45,6 @@ html {
 }
 
 /* first-screen style start */
-
 
 .first-screen {
   background-color: #EEEFF1;
@@ -67,13 +65,12 @@ html {
 }
 .first-screen__logo-menu {
   display: flex;
-  /* flex-direction: row; */
+
   justify-content: flex-start;
   align-items: center;
 }
 .first-screen__logo {
-  /* width: 96px; */
-  /* height: 60px; */
+
   font-family: Revalia;
   font-style: normal;
   font-weight: normal;
@@ -110,23 +107,22 @@ html {
   align-items: center;
   margin-top: 140px;
   margin-left: 95px;
-  /* flex-wrap: wrap; */
+
 }
 .first-screen__header {
   font-size: 48px;
   line-height: 79px;
   color: #000000;
-  /* height: 45px; */
+
 }
 .first-screen__text-block {
-  /* width: 540px; */
   margin-left: 130px;
+  width: 540px;
 }
 .first-screen__picture {
   width: 357px;
   height: 233.7px;
   background: url(img/CompFrame.svg);
-  background-size: 100% 100%;
 }
 
 /* first-screen style end */
@@ -159,7 +155,6 @@ html {
 }
 .numbers__project-item {
   display: flex;
-  /* flex-direction: row; */
   margin-left:49px
 }
 .numbers__project-item:first-child {
@@ -193,8 +188,6 @@ html {
   margin:auto;
   padding: 100px 0 100px 0;
   display: flex;
-  /* flex-wrap: wrap; */
-  /* flex-direction: row; */
   justify-content: center;
   margin: auto;
 }
@@ -205,8 +198,6 @@ html {
   align-items: flex-start;
   justify-content: center;
   margin-right: 150px;
-  /* width: 445px; */
-  /* height: 270x; */
 }
 .skills__achievements {
   font-size: 16px;
@@ -224,7 +215,6 @@ html {
   width: 78.5%;
   height: 100%;
   background-color: #34547A;
-  /* margin-right: 78%; */
 }
 .skills__picture {
   width: 555px;
@@ -240,7 +230,6 @@ html {
 
 .video {
   background-color: #EEEFF1;
-  /* padding: 100px 0; */
 }
 .video__wrapper {
   width: 1150px;
@@ -305,71 +294,48 @@ html {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-
   }
 
 .projects__column {
   display: flex;
   width: 100%;
   height: 100%;
-
 }
-/* .projects__picture-properties { 
+.projects_picture-properties {
+  width: 25%;
+  height: 100%;
+}
 
-} */
 .projects__picture1 { 
-  width: 100%;
-  height: 0;  
-  padding-bottom: 25%;
   background-image: url(img/Rectangle\ 7.png);  
   background-size: cover;
 }
 .projects__picture2 {
-  width: 100%;
-  height: 0;
-  padding-bottom: 25%;
   background-image: url(img/Rectangle\ 7.1.png);
   background-size: cover;
 }
 .projects__picture3 {
-  width: 100%;
-  height: 0;
-  padding-bottom: 25%;
   background-image: url(img/Rectangle\ 7.2.png);
   background-size: cover;
 }
 .projects__picture4 {  
-  width: 100%;
-  height: 0;
-  padding-bottom: 25%;
   background-image: url(img/Rectangle\ 7.3.png);
   background-size: cover;
 }
 .projects__picture5 {  
-  width: 100%;
-  height: 0;
-  padding-bottom: 25%;
   background-image: url(img/Rectangle\ 7.7.png);
   background-size: cover;
 }
 .projects__picture6 {  
-  width: 100%;
-  height: 0;
-  padding-bottom: 25%;
   background-image: url(img/Rectangle\ 7.4.png);
   background-size: cover;
 }
 .projects__picture7 {  
-  width: 100%;
-  height: 0;
-  padding-bottom: 25%;
   background-image: url(img/Rectangle\ 7.5.png);
   background-size: cover;
 }
 .projects__picture8 {  
-  width: 100%;
-  height: 0;
-  padding-bottom: 25%;
+
   background-image: url(img/Rectangle\ 7.6.png);
   background-size: cover;
 }
@@ -387,7 +353,7 @@ html {
   visibility: hidden;
 
 }
-.projects__picture-properties:hover .projects__image{
+.projects__hover:hover .projects__image{
   visibility: visible;
 }
 
@@ -417,20 +383,13 @@ html {
 }
 .form-request__block {
   display: flex;
-  /* flex-direction: row; */
   justify-content: space-between;
-  /* width: 544px; */
-  /* margin-top: 65px; */
 }
 .form-request__input {
-  /* width: 255px;
-  height: 50px; */
   padding: 17px 20px;
   border: 0;
 }
 .form-request__input1 {
-  /* width: 255px;
-  height: 50px; */
   padding: 17px 20px;
   border: 0;
   margin-left: 30px;
@@ -462,16 +421,12 @@ html {
 /* footer style start */
 
 .footer {
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center; */
   background-color: #34547A;
 }
 .footer__wrapper {
   width: 1150px;
   margin: auto;
-  /* padding: 50px 0 50px 0; */
+  padding: 50px 0 50px 0;
   display: flex;
   /* flex-wrap: wrap; */
   align-items: center;
@@ -518,11 +473,13 @@ html {
     flex-direction: column;
     align-items: center;
     margin: 67px 27px 95px 27px;
+
   }
   .first-screen__picture {
-    background: url(img/FrameSmall.png) no-repeat;
     width: 298px;
-    height: 195px;
+    height: 195px;    
+    background: url(img/FrameSmall.png) no-repeat;
+
     background-size: cover;
     margin-bottom: 51px;
   }
@@ -531,6 +488,7 @@ html {
     flex-direction: column;
     align-items: center;
     margin: auto;
+    width: 100%;
   }
   .first-screen__header {
     font-size: 36px;
@@ -544,15 +502,12 @@ html {
   .numbers__wrapper {
     width: 100%;
     padding: 74px 15px 74px 15px;
-    /* justify-content: space-between; */
   }
   .numbers__project-item {
     flex: 50%;
-    /* min-width: 50%; */
     justify-content: center;
     margin-left: 0;
     padding-bottom: 89px;
-    /* width: 141px; */
   }
 
   .skills {
@@ -570,7 +525,6 @@ html {
   }
 
   .skills__text-block {
-    /* align-items: center; */
     width: 100%;
     margin: 98px 0 103px 0;
   }
@@ -590,80 +544,78 @@ html {
     background: url(img/Rectangle_small\ 5.png);
     background-size: cover;
   }
-.projects__wrapper {
-  flex-direction: row;
-  padding: 34px 0 34px 0;
-}
-.projects__column {
-  flex-direction: column;
-}
-.projects__image {
-  display: none
-}
-.projects__picture-properties {
-  padding-bottom: 100%;
-}
-/*
   .projects__wrapper {
     flex-direction: row;
-
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-
-  }
-  .projects__image {
-
-    display: none;
+    padding: 34px 0 34px 0;
   }
   .projects__column {
-    flex: 50%;
     flex-direction: column;
-    align-items: center;
+  }
+  .projects__image {
+    display: none
+  }
+   .projects_picture-properties {
+     width: 100%;
    }
-  .projects__picture1 {
+  .projects__picture1 { 
     width: 100%;
-    height: 0;
-
-    padding-bottom: 25%;
-
-    background-image: url(img/Rectangle\ 7.2_small.png);
-    background-size: contain;
+    padding-bottom: 100%;
+    background-image: url(img/Rectangle\ 7.png);  
+    background-size: cover;
   }
   .projects__picture2 {
     width: 100%;
-    height: 100%;  
-
-    background: url(img/Rectangle\ 7.3_small.png);
+    height: 0;
+    padding-bottom: 100%;
+    background-image: url(img/Rectangle\ 7.1.png);
     background-size: cover;
   }
-  .projects__picture3 {  
-    background-image: url(img/Rectangle\ 7.2_small.png);
+  .projects__picture3 {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-image: url(img/Rectangle\ 7.2.png);
+    background-size: cover;
   }
   .projects__picture4 {  
-    background-image: url(img/Rectangle\ 7.3_small.png);
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-image: url(img/Rectangle\ 7.3.png);
+    background-size: cover;
   }
   .projects__picture5 {  
-    background-image: url(img/Rectangle\ 7.3_small.png);
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-image: url(img/Rectangle\ 7.7.png);
+    background-size: cover;
   }
   .projects__picture6 {  
-    background-image: url(img/Rectangle\ 7.2_small.png);
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-image: url(img/Rectangle\ 7.4.png);
+    background-size: cover;
   }
   .projects__picture7 {  
-    background-image: url(img/Rectangle\ 7.3_small.png);
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-image: url(img/Rectangle\ 7.5.png);
+    background-size: cover;
   }
   .projects__picture8 {  
-    background-image: url(img/Rectangle\ 7.2_small.png);
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-image: url(img/Rectangle\ 7.6.png);
+    background-size: cover;
   }
-  .projects__picture-properties {
-    width: 188px;
-    height: 188px;   
-  }
-  */
+
   .form__text {
     width: 100%;
     padding: 91px 17px 100px 17px;
-
   }
   .form-request {
     margin-top: 4px;
